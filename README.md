@@ -30,6 +30,8 @@ server, the server must also report the same version number when viewed at http:
 
 ### Server compilation on Linux
 
-1. Clone the project branch with the command `git clone -b sequence-audio https://github.com/softins/jamulus.git jamulus-test`
+1. Clone the project branch with the command: ```
+git clone -b sequence-audio https://github.com/softins/jamulus.git jamulus-test
+```
 
 2. Change to the `jamulus-test` directory and compile in the normal way.

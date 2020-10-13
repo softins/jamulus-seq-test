@@ -30,7 +30,9 @@ server, the server must also report the same version number when viewed at http:
 
 ### Server compilation on Linux
 
-1. Clone the project branch with the command: ```
+1. Clone the project branch with the command:
+
+```
 git clone -b sequence-audio https://github.com/softins/jamulus.git jamulus-test
 ```
 

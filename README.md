@@ -14,11 +14,25 @@ server, the server must also report the same version number when viewed at http:
 
 ### Mac version
 
+#### Bare build - requires Qt dependencies already installed
+
 1. Download https://raw.githubusercontent.com/softins/jamulus-seq-test/master/Jamulus-3.6.0git-seqtest.tar.gz into an empty directory.
 
 2. Do `tar -xzvpf Jamulus-3.6.0git-seqtest.tar.gz` which will create the directory `Jamulus.app`
 
 3. Run the client with the command `Jamulus.app/Contents/MacOS/Jamulus`
+
+#### Full installation image
+
+1. Download https://github.com/softins/jamulus-seq-test/raw/master/Jamulus-3.6.0git-seqtest-installer-mac.dmg
+
+2. Open the downloaded file, which will mount the image and launch the installer.
+
+3. In the install window, select both server and client icons and drag them to the Applications folder.
+
+4. When asked whether to replace or keep both, select "Keep both".
+
+5. The apps will be installed into `Jamulus 2.app` and `JamulusServer 2.app`
 
 ### PC version
 

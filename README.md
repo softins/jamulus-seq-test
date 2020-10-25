@@ -1,6 +1,6 @@
 # jamulus-seq-test
 
-This is a temporary project to host Mac and PC builds of Jamulus
+This is a temporary project to host Mac and PC builds of Jamulus. It will be taken down once the official versions of 3.6.0 are released.
 
 It now holds the Mac build of Volker's implementation of audio sequence numbering.
 Note that it is different from the previous implementation that was in this repository.
@@ -23,7 +23,19 @@ To use sequence numbering with a compatible server, the server must show version
 
 ### PC version
 
-The PC build of this version is not hosted here, but a beta version can be downloaded from http://llcon.sourceforge.net/Jamulus-3.6.0beta-installer.exe
+This file is not an automatic installer. When the official client is released, it will be.
+
+To install this version manually:
+
+1. Download https://github.com/softins/jamulus-seq-test/raw/master/Jamulus-3_6_0-32bit.zip
+
+2. Extract the contents of the Zip file, which will create a folder called `Jamulus-3_6_0-32bit`
+
+3. Move this folder to inside either `c:\Program Files (x86)` (if it exists) or `c:\Program Files` (otherwise)
+
+4. Within the above program files directory, rename `Jamulus` to `Jamulus.old` (if there was a previous installation of Jamulus), and then rename `Jamulus-3.6.0-32bit` to `Jamulus`.
+
+5. After step 4, existing shortcuts to Jamulus should work.
 
 ### Server compilation on Linux
 
